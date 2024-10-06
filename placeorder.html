@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Form</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+        form {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Viner Hand ITC';
+            font-size: 400%;
+            color: black;
+        }
+        h2 {
+            font-family: 'Arial Black', sans-serif;
+            color: black;
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <br>
+        <h1><i><b>ORDER FORM</b></i></h1>
+
+        <label>Firstname</label>
+        <input type="text" name="firstname" size="15">
+        <br>
+
+        <label>Lastname</label>
+        <input type="text" name="lastname" size="15">
+        <br>
+
+        <label>Email ID</label>
+        <input type="email" name="email" size="15">
+        <br>
+
+        <label>Phone No.</label>
+        <input type="tel" name="phone" size="15">
+        <br>
+
+        <label>Address</label>
+        <input type="text" name="address" size="15">
+        <br>
+
+        <label>City</label>
+        <input type="text" name="city" size="15">
+        <br>
+
+        <h2><u>Starters</u></h2>
+        <br>
+        <label>Order Name</label>
+        <input type="text" name="starter_order_name" size="15">
+        <label>Quantity</label>
+        <select name="starter_quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+
+        <h2><u>Main Course</u></h2>
+        <br>
+        <label>Order Name</label>
+        <input type="text" name="main_order_name" size="15">
+        <label>Quantity</label>
+        <select name="main_quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+
+        <h2><u>Dessert</u></h2>
+        <br>
+        <label>Order Name</label>
+        <input type="text" name="dessert_order_name" size="15">
+        <label>Quantity</label>
+        <select name="dessert_quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+
+        <label>Rating</label><br>
+        <input type="radio" name="rating" value="1">*</input><br>
+        <input type="radio" name="rating" value="2">**</input><br>
+        <input type="radio" name="rating" value="3">***</input><br>
+        <input type="radio" name="rating" value="4">****</input><br>
+        <input type="radio" name="rating" value="5">*****</input><br>
+        <br>
+
+        <button type="submit" style="background-color: red; color: white; padding: 10px 20px; font-size: 15px;">PAYMENT</button>
+        <br>
+        <h1 style="color: blue; font-family: 'Segoe Script'; text-align: center;"><b>THANK YOU FOR PLACING ORDER</b></h1>
+    </form>
+</body>
+</html>
