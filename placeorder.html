@@ -7,7 +7,7 @@
     <title>Order Form</title>
     <style>
         body {
-            background-color: lightskyblue;
+            background-color: rgb(135, 206, 250);
         }
         form {
             text-align: center;
@@ -17,7 +17,7 @@
             text-align: center;
             font-family: 'Viner Hand ITC';
             font-size: 400%;
-            color: black;
+            color: red; /* Changed to red */
         }
         h2 {
             font-family: 'Arial Black', sans-serif;
@@ -29,6 +29,20 @@
         }
         input, select {
             margin-bottom: 10px;
+        }
+        /* Payment Button Styling */
+        .payment-btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+        /* Hover Effect */
+        .payment-btn:hover {
+            background-color: rgb(1, 169, 68);
         }
     </style>
 </head>
@@ -111,7 +125,7 @@
         <input type="radio" name="rating" value="5">*****</input><br>
         <br>
 
-        <button type="submit" style="background-color: red; color: white; padding: 10px 20px; font-size: 15px;">PAYMENT</button>
+        <button type="submit" class="payment-btn">PAYMENT</button>
         <br>
         <h1 style="color: blue; font-family: 'Segoe Script'; text-align: center;"><b>THANK YOU FOR PLACING ORDER</b></h1>
     </form>
