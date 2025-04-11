@@ -1,62 +1,113 @@
+/* Background Styling */
 body {
     background-image: url('Foodbg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    color: white;
 }
+
+/* Restaurant Title */
 .garden {
     color: rgb(241, 37, 37);
     text-align: center;
-    font-family: 'Viner Hand ITC';
-    font-size: 250%;
+    font-family: 'Viner Hand ITC', cursive;
+    font-size: 2.5em;
 }
-h2 {
-    text-align: center;
-    font-size: 200%;
-    color:orange;
-}
+
+/* Subheading */
 .subheading {
-    font-family: 'Arial Black';
+    font-family: 'Arial Black', sans-serif;
     color: green;
-    font-size:200%
+    font-size: 2em;
+    text-align: center;
 }
+
+/* Welcome Section */
 .welcome {
-    font-family: 'Segoe Script';
+    font-family: 'Segoe Script', cursive;
     color: lightpink;
+    text-align: center;
+    font-size: 1.2em;
 }
+
+/* Bumper Offer */
 .bumper {
     text-align: center;
     color: orange;
-    font-size:200%
+    font-size: 2em;
 }
+
+/* Headings */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: orange;
+}
+
 h3 {
     text-align: center;
     color: rgb(173, 20, 119);
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
 }
+
+/* Table Styling */
 table {
     margin: auto;
     border-collapse: collapse;
-    width: 50%;
-    height: 60%;
+    width: 60%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
 }
+
 table, th, td {
-    border: 5px solid gray;
+    border: 3px solid gray;
     text-align: center;
     padding: 15px;
     color: white;
 }
+
 th {
-    font-family: 'Arial Black';
+    font-family: 'Arial Black', sans-serif;
+    background: rgba(233, 97, 29, 0.8);
 }
+
 td {
-    font-family: Verdana;
-} 
-.home{
-    background-image:url('tq.jpg');
-    width:300px
-    height: 500px;
+    font-family: Verdana, sans-serif;
 }
-.center{
+
+/* Menu Image */
+.menu-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Order Link */
+.order-link {
+    color: lightblue;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.order-link a {
+    color: white;
+    text-decoration: none;
+    background: rgb(3, 158, 96);
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.order-link a:hover {
+    background: rgb(242, 57, 16);
+}
+
+/* Image Styling */
+.home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center {
     display: block;
     width: 300px;
     height: 200px;
